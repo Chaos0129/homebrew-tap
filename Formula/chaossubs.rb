@@ -4,7 +4,7 @@ class Chaossubs < Formula
   desc "Video subtitle extraction & Chinese translation"
   homepage "https://github.com/Chaos0129/ChaosSubs"
   url "https://github.com/Chaos0129/ChaosSubs/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 ""  # Will be updated after first release
+  sha256 "839428b33d1351ffa477126536787b0caa2693af382ae8676e9ebe8da35eb63d"
   license "MIT"
 
   depends_on "python@3.12"
