@@ -3,8 +3,8 @@ class Chaossubs < Formula
 
   desc "Video subtitle extraction & Chinese translation"
   homepage "https://github.com/Chaos0129/ChaosSubs"
-  url "https://github.com/Chaos0129/ChaosSubs/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "839428b33d1351ffa477126536787b0caa2693af382ae8676e9ebe8da35eb63d"
+  url "https://github.com/Chaos0129/ChaosSubs/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "f9f55f64ddd23e4380e063260e0753e442a10b0ac8018ee07bdcf73c2c4f8dc6"
   license "MIT"
 
   depends_on "python@3.12"
@@ -28,14 +28,13 @@ class Chaossubs < Formula
 
   def caveats
     <<~EOS
-      ChaosSubs 安装完成！
+      ChaosSubs v0.1.1 安装完成！
 
       首次使用前请运行:
         chaossubs check
 
       如需下载模型:
         ollama pull qwen2.5:14b
-        python3 -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', compute_type='int8')"
 
       启动服务:
         chaossubs start
